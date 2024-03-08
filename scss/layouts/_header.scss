@@ -1,0 +1,64 @@
+header {
+  background-color: #ffffff0d;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+
+  .nav {
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+      position: relative;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+
+      &--item {
+        font-family: "Helvetica Neue medium";
+        font-size: 16px;
+
+        a {
+          color: #fff;
+
+          &:hover {
+            color: #6cd3ff;
+            transition: $transition-primary;
+          }
+
+          &::after {
+            content: "";
+            width: 6px;
+            height: 6px;
+            display: block;
+            @extend %bg-gradient;
+            opacity: 0;
+            transition: $transition-primary;
+            margin: 0 auto;
+            border-radius: 50%;
+          }
+
+          &:hover::after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    &__btn {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+
+      &--item{
+        @extend %btnPrimary;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+#pixi {
+    padding-top: 700px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .wrapper__left {
+            width: 263px;
+            height: 263px;
+            border-radius: 50%;
+            background-color: #291C52;
+
+            img{
+                margin-left: 35px;
+                margin-top: 30px;
+                width: 182px;
+                height: 182px;
+                animation: name 3s ease infinite;
+
+            }
+            @keyframes name {
+                0%{
+                    transform: scale(0);
+                }
+
+                100%{
+                    transform: scale(1);
+                }
+
+                
+            }
+        }
+
+        .wrapper__right {
+    
+
+            h2 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 84px;
+                margin-left: 50px;
+                color: #fff;
+
+                span {
+                    color: $text-primary;
+                }
+            }
+
+                .ellipse2 {
+                    width: 43px;
+                    height: 43px;
+                    margin-left: 500px;
+                    border-radius: 50%;
+                    background-color: #291C52;
+                    display: grid;
+                    place-content: center;
+
+                    img{
+                        margin-top: -90px;
+                    }
+
+                        img {
+                            animation: wiggle 2s linear infinite !important;
+                          }
+                          
+                          /* Keyframes */
+                          @keyframes wiggle {
+                            0%, 7% {
+                              transform: rotateZ(0);
+                            }
+                            15% {
+                              transform: rotateZ(-15deg);
+                            }
+                            20% {
+                              transform: rotateZ(10deg);
+                            }
+                            25% {
+                              transform: rotateZ(-10deg);
+                            }
+                            30% {
+                              transform: rotateZ(6deg);
+                            }
+                            35% {
+                              transform: rotateZ(-4deg);
+                            }
+                            40%, 100% {
+                              transform: rotateZ(0);
+                            }
+                          }
+                          
+                          
+                          img {
+                            
+                            border: none;
+                            color: #fff;
+                            font-family: Helvetica, Arial, Sans-serif;
+                            transform-origin: 50% 5em;
+                          }
+                    }
+                }
+
+
+            }
+
+        }
+    

@@ -1,0 +1,84 @@
+#world {
+    padding-top: 154px;
+  
+    .wrapper {
+      display: flex;
+      gap: 100px;
+      align-items: start;
+  
+      &__left {
+        max-width: 563px;
+  
+  
+        h1 {
+          font-size: 54px;
+          color: #fff;
+        }
+  
+        p {
+          font-size: 22px;
+          color: #fff;
+          margin-bottom: 48px;
+        }
+  
+        button {
+          @extend %btnPrimary;
+          padding: 18px 36px;
+        }
+      }
+  
+      &__right {
+        flex-grow: 2;
+  
+        position: relative;
+        background-image: url("../../assets/images/cicle.svg");
+        width: 500px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+  
+        img {
+          position: absolute;
+  
+          @keyframes slide-top {
+            0% {
+              transform: translateY(0);
+            }
+  
+            100% {
+              transform: translateY(-30px);
+            }
+          }
+  
+  
+          &:nth-child(1) {
+            top: -40px;
+            left: 44px;
+            animation: slide-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s infinite alternate both;
+  
+          }
+  
+          &:nth-child(2) {
+            bottom: -100px;
+            left: -76px;
+            animation: slide-top 3s linear infinite alternate both;
+  
+          }
+  
+          &:nth-child(3) {
+            top: -5px;
+            right: 40px;
+            animation: slide-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s infinite alternate both;
+  
+          }
+  
+          &:nth-child(4) {
+            bottom: -20px;
+            right: 40px;
+            animation: slide-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s infinite alternate both;
+  
+          }
+        }
+      }
+    }
+  }

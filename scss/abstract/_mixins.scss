@@ -1,0 +1,15 @@
+// ---------------- Buttons --------------------------------
+
+@mixin btnPrimary($bg, $text, $br, $bg-hover, $text-hover) {
+  padding: 10px 18px;
+  border-radius: $br;
+  background: $bg;
+  color: $text;
+  transition: $transition-primary;
+  &:hover {
+    background: $bg-hover;
+    a {
+      color: $text-hover;
+    }
+  }
+}

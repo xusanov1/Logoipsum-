@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+}
+
+ul{
+  list-style-type: none;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+body {
+  background-color: $bg-primary;
+  font-family:"Helvetica Neue medium" , sans-serif;
+}
+
+

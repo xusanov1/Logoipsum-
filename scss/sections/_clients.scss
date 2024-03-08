@@ -1,0 +1,150 @@
+#clients {
+
+    .wrapper {
+        padding-top: 150px;
+        text-align: center;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        .wrapper__cards {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .card1 {
+            position: absolute;
+            top: 50px;
+            left: 500px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+        }
+
+        .card2 {
+            position: absolute;
+            top: 150px;
+            left: 750px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card3 {
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card4 {
+            position: absolute;
+            top: 200px;
+            left: 500px;
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 12px;
+
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card5 {
+            position: absolute;
+            top: 225px;
+            left: 30px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card6 {
+            position: absolute;
+            top: 300px;
+            left: 250px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card7 {
+            position: absolute;
+            top: 350px;
+            left: 500px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card8 {
+            position: absolute;
+            top: 300px;
+            left: 750px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+        .card9 {
+            position: absolute;
+            top: 220px;
+            left: 980px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+        }
+
+    }
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Helvetica Neue bold";
+  src: url("../../assets/fonts/HelveticaNeueBold.otf");
+}
+
+@font-face {
+  font-family: "Helvetica Neue medium";
+  src: url("../../assets/fonts/HelveticaNeueMedium.otf");
+}
+
+// ----------------- fonts -------------------------------
+
+.font-helvetica-bold {
+  font-family: "Helvetica Neue bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-helvetica-medium {
+  font-family: "Helvetica Neue medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-helvetica-regular {
+  font-family: "Helvetica Neue medium", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// ----------------- text gradients -------------------------------
+
+.text-gradient-primary {
+  background: #6dc1dc;
+  background: linear-gradient(
+    to left,
+    #6dc1dc 2%,
+    #a690fc 40%,
+    #fc96bb 82%,
+    #ffc397 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
